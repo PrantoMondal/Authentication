@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sign In"
+        android:text="Sign Up"
         android:textColor="#ffffff"
         android:textSize="40dp"
         android:textStyle="bold" />
@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp">
         <EditText
-            android:id="@+id/password"
+            android:id="@+id/password1"
             android:layout_width="match_parent"
             android:layout_height="65dp"
             android:hint="Enter Your Password..."
@@ -66,12 +66,35 @@
             android:layout_alignParentLeft="true"
             android:layout_centerInParent = "true"/>
     </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+        <EditText
+            android:id="@+id/password2"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:hint="Confirm Your Password..."
+            android:paddingVertical="15dp"
+            android:textColor="#000000"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="60dp"
+            android:background="@drawable/rectangular_field"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/password"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent = "true"/>
+    </RelativeLayout>
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/register"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="Sign In"
+        android:text="Sign Up"
         android:textColor="#ffffff"
         android:layout_marginTop="30dp"
         android:background="@drawable/button_back"
@@ -87,14 +110,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="You haven't any account?"
+            android:text="You already have an account?"
             android:textColor="#ffffff"
             android:textSize="18dp"/>
         <TextView
-            android:id="@+id/signUpTv"
+            android:id="@+id/signInTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sign Up"
+            android:text="Sign In"
             android:layout_marginLeft="10dp"
             android:textStyle="bold"
             android:textSize="20dp"
