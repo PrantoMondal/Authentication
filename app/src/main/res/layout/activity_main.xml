@@ -54,7 +54,7 @@
             android:hint="Enter Your Password..."
             android:paddingVertical="15dp"
             android:textColor="#000000"
-            android:inputType="textEmailAddress"
+            android:inputType="textPassword"
             android:paddingLeft="60dp"
             android:background="@drawable/rectangular_field"/>
 

@@ -11,6 +11,7 @@
         android:text="This is my DashBoard"
         android:textSize="20dp"/>
     <Button
+        android:id="@+id/logout"
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_marginTop="60dp"
